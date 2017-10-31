@@ -13,6 +13,10 @@
 <h1>Startsiden.dk</h1>
     <p>Her kommer alle links fra Startsiden.dk. I øvrigt, jeg følger denne tutorial: <a href="https://www.w3schools.com/php/php_mysql_select.asp">https://www.w3schools.com/php/php_mysql_select.asp</a> </p>
 
+<p>Dummy</p>
+<script>
+    https://api.microlink.io?url=https://google.dk
+</script>
 
 <table id="myTable" class="tablesorter">
     <thead><tr><th>ID</th><th>Hjemmeside</th></tr></thead><tbody>

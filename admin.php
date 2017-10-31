@@ -1,3 +1,14 @@
+<?php
+
+// OBS: Denne skal udvikles videre ved lejlighed!
+if ($_GET["kodeord"] != "12345") {
+    echo '<form action="admin.php" method="get">';
+    echo 'Kodeord: <input type="text" name="kodeord">';
+    echo '</form>';
+    exit("Du skal skrive kodeord!");
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>

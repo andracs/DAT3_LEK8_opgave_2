@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, navn, URL FROM hjemmesider";
+$sql = "SELECT id, navn, url FROM hjemmesider";
 $result = $conn->query($sql);
 
 
@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
         $obj = new stdClass();
         $obj->id=$row["id"];
         $obj->navn = $row["navn"];
-        $link->navn = $row["url"];
+        $obj->url = $row["url"];
 
         echo '"item'.$obj->id.'" : ' .json_encode($obj) . ",";
     }
